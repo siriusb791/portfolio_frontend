@@ -26,7 +26,7 @@
 
   try {
     // Make sure this URL matches your Spring Boot backend's endpoint
-    const response = await fetch('http://localhost:8080/api/contact', {
+    const response = await fetch('https://portfolio-backend-ixkh.onrender.com/api/contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
